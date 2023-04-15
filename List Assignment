@@ -1,0 +1,39 @@
+1. Here's how you can create an empty list in Python:
+
+my_list = []
+
+Now my_list is an empty list that you can fill with whatever elements you need.
+
+2. Here's an example of how you can create a list and add an element to the end of it in Python:
+
+my_list = [1, 2, 3] # create a list with three elements
+my_list.append(4)   # add the integer 4 to the end of the list
+print(my_list)      # prints [1, 2, 3, 4]
+
+In this example, we create a list my_list with three elements (1, 2, and 3). Then we use the append() method to add the integer 4 to the end of the list. Finally, we print the modified list, which should now contain [1, 2, 3, 4].
+
+3. my_list = [1, 2, 3, 4]  # create a list
+print(my_list[-1])      # prints 4
+
+In this example, we create a list my_list with four elements. Then we use the index -1 to access the last element of the list, and we use the print() function to print that element. This will output 4, which is the last element of the list.
+
+4. my_list = [1, 2, 3, 4]  # create a list
+my_list.reverse()      # reverse the order of the list
+print(my_list)          # prints [4, 3, 2, 1]
+
+In this example, we create a list my_list with four elements. Then we use the reverse() method to reverse the order of the list. Finally, we use the print() function to print the modified list, which should now contain [4, 3, 2, 1].
+
+5. my_list = [4, 2, 3, 1]  # create a list
+my_list.sort()          # sort the list in ascending order
+print(my_list)          # prints [1, 2, 3, 4]
+
+6. my_favorite_movies = ["Mirzapur", "Mirzapur 2", "The Dark Knight"]  # create a list of favorite movies
+print(my_favorite_movies[1])   # print the second movie title
+
+7. my_favorite_animals = ["Dolphin", "Elephant", "Penguin"]  # create a list of favorite animals
+my_favorite_animals.append("Giraffe")                     # add a new animal to the list
+print(my_favorite_animals)                                # print the updated list
+
+8. my_favorite_cities = ["Paris", "New York", "Tokyo", "Barcelona"]  # create a list of favorite cities
+position = my_favorite_cities.index("Tokyo")                      # find the position of "Tokyo"
+print("Tokyo is at position:", position)                          # print the position
